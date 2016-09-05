@@ -1,4 +1,4 @@
 print("Please enter a number")
 num = int(input())
 for i in range(12):
-  print(i*num)
+  print("%d times %d equals %d" % (i, num, i*num))
